@@ -17,5 +17,9 @@ namespace MVC_CommercialAutomation.Models.Classes
         public int Unit { get; set; }
         public decimal Piece { get; set; }
         public decimal Total { get; set; }
+
+        public ICollection<Product> Products { get; set; }
+        public ICollection<Current> Currents { get; set; }
+        public ICollection<Employee> Employees { get; set; }
     }
 }
