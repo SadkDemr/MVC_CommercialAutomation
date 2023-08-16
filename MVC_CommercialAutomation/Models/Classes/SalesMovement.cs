@@ -18,8 +18,8 @@ namespace MVC_CommercialAutomation.Models.Classes
         public decimal Piece { get; set; }
         public decimal Total { get; set; }
 
-        public ICollection<Product> Products { get; set; }
-        public ICollection<Current> Currents { get; set; }
-        public ICollection<Employee> Employees { get; set; }
+        public Product Product { get; set; }
+        public Current Current { get; set; }
+        public Employee Employee { get; set; }
     }
 }

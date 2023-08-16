@@ -28,6 +28,6 @@ namespace MVC_CommercialAutomation.Models.Classes
         [StringLength(1000)]
         public string ProductImage { get; set; }
         public Category Category { get; set; }
-        public SalesMovement SalesMovement { get; set; }
+        public ICollection<SalesMovement> SalesMovements { get; set; }
     }
 }

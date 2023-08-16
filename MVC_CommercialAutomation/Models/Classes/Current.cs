@@ -28,6 +28,6 @@ namespace MVC_CommercialAutomation.Models.Classes
         [StringLength(50)]
         public string CurrentMail{ get; set; }
 
-        public SalesMovement SalesMovement { get; set; }
+        public ICollection<SalesMovement> SalesMovements { get; set; }
     }
 }
